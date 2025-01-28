@@ -1,12 +1,10 @@
 
 from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
 
-
+from .api_urls import api_v1
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('cliente/', include('cliente.urls')),
-    path('itens_pedidos/',include('itens_pedidos.urls')),
-    path('pedido/',include('pedido.urls'))
+    path('api/v1/', api_v1.urls),
 ]

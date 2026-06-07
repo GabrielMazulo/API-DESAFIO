@@ -11,14 +11,11 @@ Logo em seguida, siga estes passos!
 -Passo 6: Irá cair na tela de login: Digite em Username: gabriel; em password: 1234.  
 
 Assim poderá acessar a área do admin da API e assim testar todas as funções da API.
-Caso queira acessar a documentação, entre com o seguinte link: http://127.0.0.1:8000/cliente/api/v1/docs#/  
-
-Para acessar as outras duas startapp acesse o seguinte codigo para pedido: http://127.0.0.1:8000/pedido/api/v2/docs#/  
-
-Para acessar as outras duas startapp acesse o seguinte codigo para itens_pedido: http://127.0.0.1:8000/itens_pedido/api/v3/docs#/  
+Caso queira acessar a documentação, entre com o seguinte link: http://127.0.0.1:8000/api/v1/docs#/
 
 A seguir o codigo do banco de dados em mysql:
 
+Abaixo está o DDL das tabelas do banco de dados.
 CREATE DATABASE desafio;
 USE desafio;
 
